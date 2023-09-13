@@ -1,0 +1,96 @@
+/*media pour portable*/
+@media screen and (max-width: 600px) {
+  /*Taille et position image de la boule, souris clique sur boule*/
+  body {
+    background-color: #d53c86;
+    background-image: radial-gradient(
+        ellipse at top,
+        #f8d895 11%,
+        transparent 70%
+      ),
+      radial-gradient(ellipse at bottom, #feb89d 11%, transparent 70%);
+  }
+
+  .boule img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .number,
+  .boule {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.8rem;
+    padding-bottom: 3.4rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+    padding: 1.6rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .answer {
+    box-shadow: 0rem 0rem 5rem rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    margin: -2.3rem;
+    padding: 1.8rem;
+  }
+}
+/*media pout tablettes et ordis*/
+@media screen and (min-width: 600px) {
+  .boule img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
+    object-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .boule,
+  .number {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  body {
+    background-color: #d53c86;
+    background-image: radial-gradient(
+        ellipse at top,
+        #f8d895 11%,
+        transparent 70%
+      ),
+      radial-gradient(ellipse at bottom, #feb89d 11%, transparent 70%);
+  }
+
+  .answer {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
