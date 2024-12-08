@@ -5,15 +5,15 @@
     background-color: #d53c86;
     background-image: radial-gradient(
         ellipse at top,
-        #f8d895 11%,
+        #f8d895 1%,
         transparent 70%
       ),
       radial-gradient(ellipse at bottom, #feb89d 11%, transparent 70%);
   }
 
   .boule img {
-    width: 250px;
-    height: 250px;
+    width: 25rem;
+    height: 25rem;
     position: relative;
     cursor: pointer;
   }
@@ -21,7 +21,7 @@
   .number,
   .boule {
     text-align: center;
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: bold;
     text-align: center;
     padding: 1.8rem;
@@ -41,7 +41,7 @@
 
   .answer {
     box-shadow: 0rem 0rem 5rem rgba(0, 0, 0, 0.8);
-    font-size: 20px;
+    font-size: 10rem;
     font-weight: bold;
     margin: -2.3rem;
     padding: 1.8rem;
@@ -50,11 +50,11 @@
 /*media pout tablettes et ordis*/
 @media screen and (min-width: 600px) {
   .boule img {
-    width: 350px;
-    height: 350px;
+    width: 25rem;
+    height: 25rem;
     position: relative;
     cursor: pointer;
-    padding: 20px;
+    padding: 3rem;
     object-position: center;
   }
 

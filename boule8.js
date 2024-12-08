@@ -22,7 +22,7 @@ function nextAnswer() {
       eightBall = "Reviens plus tard je dors";
       break;
     case 3:
-      eightBall = "Mais oui oh la la tu me reveille pour ça !!!";
+      eightBall = "Mais oui oh la la tu me reveilles pour ça !!!";
       break;
     case 4:
       eightBall = "Compte pas la dessus";
